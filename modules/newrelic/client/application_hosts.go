@@ -34,7 +34,7 @@ type ApplicationHost struct {
 	ApplicationSummary ApplicationHostSummary        `json:"application_summary,omitempty"`
 	HealthStatus       string                        `json:"health_status,omitempty"`
 	Host               string                        `json:"host,omitempty"`
-	ID                 int                           `json:"idomitempty"`
+	ID                 int                           `json:"id,omitempty"`
 	Language           string                        `json:"language,omitempty"`
 	Links              ApplicationHostLinks          `json:"links,omitempty"`
 	EndUserSummary     ApplicationHostEndUserSummary `json:"end_user_summary,omitempty"`
